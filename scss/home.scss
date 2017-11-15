@@ -560,6 +560,42 @@ footer {
         font-size: 12px;
     }
 
+    &__author {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__authorimg {
+        margin-right: 16px;
+
+        img {
+            flex: 1;
+            border-radius: 50%; 
+            height: 65px;
+            width: 65px;
+        }
+    }
+
+    &__flex {
+        flex: 1;
+    }
+
+    &__authorname {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    &__date {
+        color: #757575;
+        font-size: 13px;
+    }
+
+    &__desc {
+        border-bottom: 1px solid #f2f2f2;
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
 }
 
 

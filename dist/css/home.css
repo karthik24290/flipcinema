@@ -6574,5 +6574,27 @@ footer {
 .detail-list__views {
   margin-bottom: 5px;
   font-size: 12px; }
+.detail-list__author {
+  display: flex;
+  margin-bottom: 20px; }
+.detail-list__authorimg {
+  margin-right: 16px; }
+  .detail-list__authorimg img {
+    flex: 1;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px; }
+.detail-list__flex {
+  flex: 1; }
+.detail-list__authorname {
+  font-size: 14px;
+  margin-bottom: 6px; }
+.detail-list__date {
+  color: #757575;
+  font-size: 13px; }
+.detail-list__desc {
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 14px;
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=home.css.map */

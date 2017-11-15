@@ -50,9 +50,9 @@
                     <div class="detail-wrap__content">
                         <div class="detail-wrap__img">
                             <img src="/dist/images/img.jpg">
-                            <div class="detail-wrap__duration">
+                            <button class="detail-wrap__duration">
                                 <img src="/dist/icons/play-button.svg">
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <div class="detail-wrap__wrap">
@@ -73,15 +73,93 @@
                         </div>
                     </div>
                     <div class="detail-list__author">
-                        <div class="detail-list__desc">Watch Mazhai Varum Official Song Video from the Movie Veppam</div>
+                        <div class="detail-list__authorimg">
+                            <img src="https://yt3.ggpht.com/-dSWDMeu4BxE/AAAAAAAAAAI/AAAAAAAAAAA/SAztcWjLB8c/s88-c-k-no-mo-rj-c0xffffff/photo.jpg">
+                        </div>
+                        <div class="detail-list__flex">
+                            <div class="detail-list__authorname">SonyMusicSouthVEVO</div>
+                            <div class="detail-list__date">Published on Jan 2017</div>
+                        </div>
                     </div>
+                    <div class="detail-list__desc">Watch Mazhai Varum Official Song Video from the Movie Veppam</div>
 
                 </div>
+
             </div>
             <div class="col-sm-4">
                 <div class="detail-list">
                     <div class="detail-list__ttl">You May Also Like to Watch</div>
                     <ul class="detail-list__list">
+                        <li class="detail-list__item">
+                            <a class="detail-list__link">
+                                <div class="detail-list__wrap">
+                                    <div class="detail-list__fig">
+                                        <img src="https://i.ytimg.com/vi/JCLGB0k5zzQ/mqdefault.jpg">
+                                    </div>
+                                    <div class="detail-list__content">
+                                        <div class="detail-list__subttl">Happy New Year - New Tamil Short Film 2017 || Vijjith, Akshara Sudhakar Reddy || E Sub</div>
+                                        <div class="detail-list__name">Tamil Cinema Review</div>
+                                        <div class="detail-list__views">1,546,434 views</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a class="detail-list__link">
+                                <div class="detail-list__wrap">
+                                    <div class="detail-list__fig">
+                                        <img src="https://i.ytimg.com/vi/6zwrmD-Bbrk/mqdefault.jpg">
+                                    </div>
+                                    <div class="detail-list__content">
+                                        <div class="detail-list__subttl">Happy New Year - New Tamil Short Film 2017 || Vijjith, Akshara Sudhakar Reddy || E Sub</div>
+                                        <div class="detail-list__name">Tamil Cinema Review</div>
+                                        <div class="detail-list__views">1,546,434 views</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a class="detail-list__link">
+                                <div class="detail-list__wrap">
+                                    <div class="detail-list__fig">
+                                        <img src="https://i.ytimg.com/vi/JpmYuSJhlYY/mqdefault.jpg">
+                                    </div>
+                                    <div class="detail-list__content">
+                                        <div class="detail-list__subttl">Happy New Year - New Tamil Short Film 2017 || Vijjith, Akshara Sudhakar Reddy || E Sub</div>
+                                        <div class="detail-list__name">Tamil Cinema Review</div>
+                                        <div class="detail-list__views">1,546,434 views</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a class="detail-list__link">
+                                <div class="detail-list__wrap">
+                                    <div class="detail-list__fig">
+                                        <img src="https://i.ytimg.com/vi/PBMRi84-eKM/mqdefault.jpg">
+                                    </div>
+                                    <div class="detail-list__content">
+                                        <div class="detail-list__subttl">Happy New Year - New Tamil Short Film 2017 || Vijjith, Akshara Sudhakar Reddy || E Sub</div>
+                                        <div class="detail-list__name">Tamil Cinema Review</div>
+                                        <div class="detail-list__views">1,546,434 views</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="detail-list__item">
+                            <a class="detail-list__link">
+                                <div class="detail-list__wrap">
+                                    <div class="detail-list__fig">
+                                        <img src="https://i.ytimg.com/vi/X8cQHG04j6Y/mqdefault.jpg">
+                                    </div>
+                                    <div class="detail-list__content">
+                                        <div class="detail-list__subttl">Happy New Year - New Tamil Short Film 2017 || Vijjith, Akshara Sudhakar Reddy || E Sub</div>
+                                        <div class="detail-list__name">Tamil Cinema Review</div>
+                                        <div class="detail-list__views">1,546,434 views</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
                         <li class="detail-list__item">
                             <a class="detail-list__link">
                                 <div class="detail-list__wrap">
