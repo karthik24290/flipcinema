@@ -36,7 +36,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="logo-ttl" href="#">Flip cinema</a>
+                <a class="logo-ttl" href="index.php">Flip cinema</a>
                 <div class="nav-ttl">Browse</div>
             </div>
         </div>

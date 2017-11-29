@@ -6286,6 +6286,12 @@ body {
 .navbar {
   margin-bottom: 0; }
 
+.mb1 {
+  margin-bottom: 10px; }
+
+.mb2 {
+  margin-bottom: 20px; }
+
 .bg-dark {
   background: #000 !important; }
 
@@ -6595,6 +6601,7 @@ footer {
 .detail-list__desc {
   border-bottom: 1px solid #f2f2f2;
   font-size: 14px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=home.css.map */
