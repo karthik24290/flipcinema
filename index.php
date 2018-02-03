@@ -13,7 +13,7 @@
         <link href="/dist/css/home.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body>  
 
         <!-- Navbar-->
         <div class="collapse bg-dark" id="navbarHeader">
