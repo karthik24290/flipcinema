@@ -46,29 +46,56 @@
 
         <!-- Upload-->
         <div class="container">
-            <div class="col-md-8 col-md-offset-2">
-                <h3 class="mb1">Upload Your File</h3>
-                <form method="POST" action="#" enctype="multipart/form-data">
-                    <!-- COMPONENT START -->
-                    <div class="form-group">
-                        <div class="input-group input-file" name="Fichier1">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default btn-choose" type="button">Choose</button>
-                            </span>
-                            <input type="text" class="form-control" placeholder='Choose a file...' />
-                            <span class="input-group-btn">
-                                <button class="btn btn-warning btn-reset" type="button">Reset</button>
-                            </span>
+            <!-- upload-container-->
+            <div class="upload-container">
+                <div class="upload-container__box">
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <div class="upload-container__drag" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                <div class="upload-container__wrapper">
+                                    <button class="upload-container__btn">
+                                        <img src="dist/images/upload.png" alt=""/>
+                                    </button>
+                                    <div class="upload-container__ttl">Select files to Upload</div>
+                                    <div class="upload-container__subttl">or Drag and Drop video files</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="upload-sidebar">
+                                <div class="upload-sidebar__ttl">Import Videos</div>
+                                <div class="upload-sidebar__wrapper row">
+                                    <div class="col-sm-5">
+                                        <img src="dist/images/import.png" alt=""/>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="upload-sidebar__txt">Import your videos from Google Photos</div>
+                                        <button class="upload-sidebar__btn">Import</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- COMPONENT END -->
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary pull-right" disabled>Submit</button>
-                        <button type="reset" class="btn btn-danger">Reset</button>
-                    </div>
-                </form>
-
+                </div>
             </div>
+            <!-- upload-container-->
+
+            <!-- upload-footer-->
+            <div class="upload-footer">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="upload-footer__ttl">Help and suggestions </div>
+                        <div class="upload-footer__txt">By submitting your videos to YouTube, you acknowledge that you agree to YouTube's<a href="#">Terms of Service</a><br>Please be sure not to violate others' copyright or privacy rights. </div>
+                        <ul class="upload-footer__list">
+                            <li class="upload-footer__item"><a class="upload-footer__link">Upload instructions</a></li>
+                            <li class="upload-footer__item"><a class="upload-footer__link">Troubleshooting</a></li>
+                            <li class="upload-footer__item"><a class="upload-footer__link">Mobile uploads</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- upload-footer-->
+
         </div>
         <!-- upload-->
 
@@ -92,34 +119,19 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
         <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
         <script>
-            function bs_input_file() {
-                $(".input-file").before(
-                        function () {
-                            if (!$(this).prev().hasClass('input-ghost')) {
-                                var element = $("<input type='file' class='input-ghost' style='visibility:hidden; height:0'>");
-                                element.attr("name", $(this).attr("name"));
-                                element.change(function () {
-                                    element.next(element).find('input').val((element.val()).split('\\').pop());
-                                });
-                                $(this).find("button.btn-choose").click(function () {
-                                    element.click();
-                                });
-                                $(this).find("button.btn-reset").click(function () {
-                                    element.val(null);
-                                    $(this).parents(".input-file").find('input').val('');
-                                });
-                                $(this).find('input').css("cursor", "pointer");
-                                $(this).find('input').mousedown(function () {
-                                    $(this).parents('.input-file').prev().click();
-                                    return false;
-                                });
-                                return element;
-                            }
-                        }
-                );
-            }
-            $(function () {
-                bs_input_file();
-            });</script>
+                                function allowDrop(ev) {
+                                    ev.preventDefault();
+                                }
+
+                                function drag(ev) {
+                                    ev.dataTransfer.setData("text", ev.target.id);
+                                }
+
+                                function drop(ev) {
+                                    ev.preventDefault();
+                                    var data = ev.dataTransfer.getData("text");
+                                    ev.target.appendChild(document.getElementById(data));
+                                }
+        </script>
     </body>
 </html>

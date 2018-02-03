@@ -66,8 +66,8 @@
         <div class="album text-muted">
             <div class="container">
                 <div class="card-container">
+                    <div class="card-ttl ac">Popular Shortfilms</div>
                     <div class="row">
-                        <div class="card-ttl ac">Popular Shortfilms</div>
                         <div class="col-sm-3 py-3">
                             <a href="/details.php">
                                 <img class="card-img" src="https://i.ytimg.com/vi/xNP3n-VAsuk/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBWaELWc6NAJry7ZTetNoHcb6vURw" alt="Card image cap">
@@ -98,7 +98,6 @@
                                 </div>
                             </a>
                         </div>
-
                         <div class="col-sm-3 py-3">
                             <a href="/details.php">
                                 <img  class="card-img" src="https://i.ytimg.com/vi/X0JXXLdDnp4/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA4grozUqZGRQ9yF5FDm5DNHjDvgA" alt="Card image cap">
@@ -112,9 +111,8 @@
                     </div>
                 </div>
                 <div class="card-container">
+                    <div class="card-ttl ac">Trailers</div>
                     <div class="row">
-                        <div class="card-ttl ac">Trailers</div>
-
                         <div class="col-sm-3 py-3">
                             <a href="/details.php">
                                 <img class="card-img" src="https://i.ytimg.com/vi/fhZk4GzC1QY/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBFqBkKBXYgMQJGaVEGJ1VVHt9RLg" alt="Card image cap">
