@@ -13,7 +13,7 @@
         <link href="/dist/css/home.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body style="background-color: #f1f1f1; min-height: 100%;">
 
         <!-- Navbar-->
         <div class="collapse bg-dark" id="navbarHeader">
@@ -48,30 +48,29 @@
         <div class="container">
             <!-- upload-container-->
             <div class="upload-container">
-                <div class="upload-container__box">
-                    <div class="row">
-                        <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="upload-container__box">
                             <div class="upload-container__drag" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
                                 <div class="upload-container__wrapper">
-                                    <button class="upload-container__btn">
-                                        <img src="dist/images/upload.png" alt=""/>
-                                    </button>
+                                    <input type="file" id="file1" class="upload-container__input" name="image" accept="image/*" capture />
+                                    <img src="dist/images/upload.png" id="upfile1" style="cursor:pointer" />
                                     <div class="upload-container__ttl">Select files to Upload</div>
                                     <div class="upload-container__subttl">or Drag and Drop video files</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="upload-sidebar">
-                                <div class="upload-sidebar__ttl">Import Videos</div>
-                                <div class="upload-sidebar__wrapper row">
-                                    <div class="col-sm-5">
-                                        <img src="dist/images/import.png" alt=""/>
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <div class="upload-sidebar__txt">Import your videos from Google Photos</div>
-                                        <button class="upload-sidebar__btn">Import</button>
-                                    </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="upload-sidebar">
+                            <div class="upload-sidebar__ttl">Import Videos</div>
+                            <div class="upload-sidebar__wrapper row">
+                                <div class="col-sm-5">
+                                    <img src="dist/images/import.png" alt=""/>
+                                </div>
+                                <div class="col-sm-7">
+                                    <div class="upload-sidebar__txt">Import your videos from Google Photos</div>
+                                    <button class="upload-sidebar__btn">Import</button>
                                 </div>
                             </div>
                         </div>
@@ -81,9 +80,9 @@
             <!-- upload-container-->
 
             <!-- upload-footer-->
-            <div class="upload-footer">
-                <div class="row">
-                    <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="upload-footer">
                         <div class="upload-footer__ttl">Help and suggestions </div>
                         <div class="upload-footer__txt">By submitting your videos to YouTube, you acknowledge that you agree to YouTube's<a href="#">Terms of Service</a><br>Please be sure not to violate others' copyright or privacy rights. </div>
                         <ul class="upload-footer__list">

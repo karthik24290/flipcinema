@@ -13,7 +13,7 @@
         <link href="/dist/css/home.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body style="background-color: #f1f1f1; min-height: 100%;">
 
         <!-- Navbar-->
         <div class="collapse bg-dark" id="navbarHeader">
@@ -48,13 +48,58 @@
         <div class="container">
             <div class="upload-detail">
                 <div class="row">
-                    <div class="col-sm-6">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                 aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                70%
+                    <div class="col-sm-3">
+                        <div class="upload-detail__img">
+                            <img src='https://i.ytimg.com/vi/X0JXXLdDnp4/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA4grozUqZGRQ9yF5FDm5DNHjDvgA'>
+                        </div>
+                        <div class="upload-detail__status">Upload status:</div>
+                        <div class="upload-detail__subtxt">Upload complete!</div>
+                        <div class='upload-detail__text'>Your video will be live at: </div>
+                        <a class="upload-detail__link" href="#">https://youtu.be/hRjjhI-q-6s</a>
+                        <div class="upload-detail__status">Video / Audio quality:</div>
+                        <div class="upload-detail__content">Your videos will process faster if you encode into a streamable file format. For more information, visit our <a href='#'>Help Centre</a></div>
+
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div class="upload-detail__progress progress">
+                                    <div class="upload-detail__bar progress-bar" role="progressbar" aria-valuenow="70"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        70%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="upload-detail__btn">Publish</button>
                             </div>
                         </div>
+                        <div class="upload-detail__txt">Click "Publish" to make your video live.</div>
+                        <div class="upload-detail__info">Basic Info:</div>
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control upload-detail__input" id="usr" placeholder="Title">
+                                        <textarea class="form-control upload-detail__input" rows="5" id="comment" placeholder="Description"></textarea>
+                                        <input type="text" class="form-control upload-detail__input" id="" placeholder="Tags (e.g. Albert Einstein, flying pig, mashup)">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <select class="form-control" id="sel1">
+                                        <option>Public</option>
+                                        <option>Private</option>
+                                        <option>Scheduled</option>
+                                        <option>Unscheduled</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="upload-detail__thumb">Video thumbnails</div>
+                        <img src='https://i9.ytimg.com/vi/gtCt1xFgApY/default.jpg?sqp=CJjM59MF&rs=AOn4CLA0H2RuUK8cExch8iFx206ZF_92jg'>
+                        <img src='https://i9.ytimg.com/vi/gtCt1xFgApY/default.jpg?sqp=CJjM59MF&rs=AOn4CLA0H2RuUK8cExch8iFx206ZF_92jg'>
                     </div>
                 </div>
             </div>
