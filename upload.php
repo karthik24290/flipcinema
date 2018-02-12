@@ -49,7 +49,7 @@
             <!-- upload-container-->
             <div class="upload-container">
                 <div class="row">
-                    <div class="col-sm-9">
+                    <div class="col-sm-6">
                         <div class="upload-container__box">
                             <div class="upload-container__drag" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
                                 <div class="upload-container__wrapper">
@@ -61,19 +61,28 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
-                        <div class="upload-sidebar">
-                            <div class="upload-sidebar__ttl">Import Videos</div>
-                            <div class="upload-sidebar__wrapper row">
-                                <div class="col-sm-5">
-                                    <img src="dist/images/import.png" alt=""/>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="upload-sidebar__txt">Import your videos from Google Photos</div>
-                                    <button class="upload-sidebar__btn">Import</button>
-                                </div>
+                    <div class="col-sm-6">
+                        <!-- upload-list-->
+                        <div class="upload-list">
+                            <div class="upload-list__head">
+                                <div class="upload-list__ttl">Your Uploaded Movie Teaser</div>
                             </div>
+                            <ul class="upload-list__list">
+                                <li class="upload-list__item">
+                                    <a href="#" class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</a>
+                                </li>
+                                <li class="upload-list__item">
+                                    <a href="#" class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</a>
+                                </li>
+                                <li class="upload-list__item">
+                                    <a href="#" class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</a>
+                                </li>
+                                <li class="upload-list__item">
+                                    <a href="#" class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</a>
+                                </li>
+                            </ul>
                         </div>
+                        <!-- upload-list-->
                     </div>
                 </div>
             </div>
@@ -81,20 +90,19 @@
 
             <!-- upload-footer-->
             <div class="row">
-                <div class="col-sm-9">
+                <div class="col-sm-12">
                     <div class="upload-footer">
                         <div class="upload-footer__ttl">Help and suggestions </div>
                         <div class="upload-footer__txt">By submitting your videos to YouTube, you acknowledge that you agree to YouTube's<a href="#">Terms of Service</a><br>Please be sure not to violate others' copyright or privacy rights. </div>
                         <ul class="upload-footer__list">
-                            <li class="upload-footer__item"><a class="upload-footer__link">Upload instructions</a></li>
-                            <li class="upload-footer__item"><a class="upload-footer__link">Troubleshooting</a></li>
-                            <li class="upload-footer__item"><a class="upload-footer__link">Mobile uploads</a></li>
+                            <li class="upload-footer__item"><a class="upload-footer__link" href="#">Upload instructions</a></li>
+                            <li class="upload-footer__item"><a class="upload-footer__link" href="#">Troubleshooting</a></li>
+                            <li class="upload-footer__item"><a class="upload-footer__link" href="#">Mobile uploads</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <!-- upload-footer-->
-
         </div>
         <!-- upload-->
 

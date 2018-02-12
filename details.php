@@ -37,7 +37,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="logo-ttl" href="index.php">Flip cinema</a>
-                <div class="nav-ttl">Browse</div>
+                <a href="#" class="nav-ttl">Browse</a>
+                <a href="#" class="nav-ttl">Register</a>
             </div>
         </div>
         <!-- Header-->
@@ -91,7 +92,7 @@
                     <div class="detail-list__ttl">You May Also Like to Watch</div>
                     <ul class="detail-list__list">
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/JCLGB0k5zzQ/mqdefault.jpg">
@@ -105,7 +106,7 @@
                             </a>
                         </li>
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/6zwrmD-Bbrk/mqdefault.jpg">
@@ -119,7 +120,7 @@
                             </a>
                         </li>
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/JpmYuSJhlYY/mqdefault.jpg">
@@ -133,7 +134,7 @@
                             </a>
                         </li>
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/PBMRi84-eKM/mqdefault.jpg">
@@ -147,7 +148,7 @@
                             </a>
                         </li>
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/X8cQHG04j6Y/mqdefault.jpg">
@@ -161,7 +162,7 @@
                             </a>
                         </li>
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/JCLGB0k5zzQ/mqdefault.jpg">
@@ -175,7 +176,7 @@
                             </a>
                         </li>
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/6zwrmD-Bbrk/mqdefault.jpg">
@@ -189,7 +190,7 @@
                             </a>
                         </li>
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/JpmYuSJhlYY/mqdefault.jpg">
@@ -203,7 +204,7 @@
                             </a>
                         </li>
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/PBMRi84-eKM/mqdefault.jpg">
@@ -217,7 +218,7 @@
                             </a>
                         </li>
                         <li class="detail-list__item">
-                            <a class="detail-list__link">
+                            <a class="detail-list__link" href="#">
                                 <div class="detail-list__wrap">
                                     <div class="detail-list__fig">
                                         <img src="https://i.ytimg.com/vi/X8cQHG04j6Y/mqdefault.jpg">

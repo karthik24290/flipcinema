@@ -45,7 +45,7 @@
         <!-- Header-->
 
         <!-- banner-->
-        <div class="banner">
+        <!--<div class="banner">
             <div class="banner__bg">
                 <video autoplay="" loop="" muted="" id="awards-bg-video">
                     <source src="/dist/banner.mp4" type="video/mp4">
@@ -59,7 +59,86 @@
                     </div>
                 </div>
             </div>
+        </div>-->
+        <!-- reference examples at https://www.idangero.us/swiper/demos/#.Vl8kD9-rRHc -->
+        <section id="lab_video_slider">
+            <div class="container-fluid">
+                <div class="row">
+                    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+                    <!-- Link Swiper's CSS -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div id="slide_one" class="swiper-slide">
+                                <div id="lab_video_text_overlay">
+                                    <div class="container">
+                                        <h2 class="swiper-wrapper__ttl">Movie<strong>Pass</strong></h2>
+                                    </div>
+                                </div>
+                                <!-- VIDEO -->
+                                <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="">
+                                    <source src="dist/banner.mp4" type="video/mp4">
+                                </video>
+                                <!-- END VIDEO -->
+                            </div>
+
+                            <div id="slide_two" class="swiper-slide">
+                                <div id="lab_video_text_overlay">
+                                    <div class="container">
+                                        <h2 class="swiper-wrapper__ttl">Movie<strong>Pass</strong></h2>
+                                    </div>
+                                </div>
+                                <!-- end #lab_overlay -->
+                                <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="//dl.dropbox.com/s/ijyaav8qzkdtyt5/lab-coding-screenshot.jpg">
+                                    <source src="Sunrise.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                            <div id="slide_three" class="swiper-slide">
+                                <div id="lab_video_text_overlay">
+                                    <div class="container">
+                                        <h2 class="swiper-wrapper__ttl">Movie<strong>Pass</strong></h2>
+
+                                    </div>
+                                </div>
+                                <!-- end #lab_overlay -->
+                                <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="//dl.dropbox.com/s/ijyaav8qzkdtyt5/lab-coding-screenshot.jpg">
+                                    <source src="Saint_Barthelemy_2.mov" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                    <!-- Swiper JS -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper('.swiper-container', {
+                            pagination: '.swiper-pagination',
+                            paginationClickable: true,
+                            nextButton: '.swiper-button-next',
+                            prevButton: '.swiper-button-prev',
+                            spaceBetween: 30,
+                            autoplay: 5000,
+                            autoplayDisableOnInteraction: false
+                        });
+                    </script>
+                </div>
+                <!-- end .row -->
+            </div>
+            <!-- end .container-->
         </div>
+        <!-- end #section -->
         <!-- Banner-->
 
         <!-- Listing-->
@@ -216,5 +295,5 @@
         <!--<script src="/bower_components/popper.js/dist/popper.min.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
         <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
-    </body>
+</body>
 </html>
