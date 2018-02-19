@@ -67,20 +67,33 @@
                             <div class="upload-list__head">
                                 <div class="upload-list__ttl">Your Uploaded Movie Teaser</div>
                             </div>
-                            <ul class="upload-list__list">
-                                <li class="upload-list__item">
-                                    <a href="#" class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</a>
-                                </li>
-                                <li class="upload-list__item">
-                                    <a href="#" class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</a>
-                                </li>
-                                <li class="upload-list__item">
-                                    <a href="#" class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</a>
-                                </li>
-                                <li class="upload-list__item">
-                                    <a href="#" class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</a>
-                                </li>
-                            </ul>
+                            <div class="row">
+                                <ul class="upload-list__list col-sm-8">
+                                    <li class="upload-list__item">
+                                        <div class="upload-list__subhead">
+                                            <div class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</div>
+                                        </div>
+                                        <div class="upload-list__subbody">
+                                            <img src="dist/images/img.jpg" alt=""/>
+                                        </div>
+                                        <span class="upload-list__rating">Rating: </span>
+                                        <span class="upload-list__value">0 </span>
+                                        <button type="button">Play</button>
+                                    </li>
+                                    <li class="upload-list__item">
+                                        <div class="upload-list__subhead">
+                                            <div class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</div>
+                                        </div>
+                                        <div class="upload-list__subbody">
+                                            <img src="dist/images/img.jpg" alt=""/>
+                                        </div>
+                                        <span class="upload-list__rating">Rating: </span>
+                                        <span class="upload-list__value">0 </span>
+                                        <button type="button">Play</button>
+                                    </li>
+                                </ul>
+                            </div>
+
                         </div>
                         <!-- upload-list-->
                     </div>

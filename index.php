@@ -10,6 +10,9 @@
         <title>FlipCinema</title>
 
         <!-- Bootstrap core CSS -->
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href="/dist/css/style.css" rel="stylesheet">
+        <script src="js/modernizr.js"></script> <!-- Modernizr -->
         <link href="/dist/css/home.css" rel="stylesheet">
     </head>
 
@@ -18,28 +21,32 @@
         <!-- Navbar-->
         <div class="collapse bg-dark" id="navbarHeader">
             <div class="container">
-                <div class="nav-subnav row">
-                    <ul class="list-unstyled nav-subnav__list ac">
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Short Films</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Movie Teasers</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Movie Trailers</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Folk Songs</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Poems</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Movie Trailers</a></li>
-                    </ul>
-                </div>
+                <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+                    <h3>Menu</h3>
+                    <a href="#">Short Films</a>
+                    <a href="#">Trailers</a>
+                    <a href="#">Songs</a>
+                    <a href="#">Videos</a>
+                    <a href="#">bunya</a>
+                    <a href="#">Rutabaga</a>
+                </nav>
             </div>
         </div>
+
+
         <!-- Header-->
 
         <!-- Header-->
         <div class="navbar navbar-dark bg-dark">
             <div class="container d-flex justify-content-between">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <a class="logo-ttl" href="index.php">Flip cinema</a>
+                <button id="showLeft" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu</button>
                 <a href="upload.php" class="nav-ttl">upload</a>
+                <nav class="main-nav">
+                    <!-- inser more links here -->
+                    <a class="cd-signin" href="#0">Sign in</a>
+                </nav>
             </div>
         </div>
         <!-- Header-->
@@ -60,7 +67,6 @@
                 </div>
             </div>
         </div>-->
-        <!-- reference examples at https://www.idangero.us/swiper/demos/#.Vl8kD9-rRHc -->
         <section id="lab_video_slider">
             <div class="container-fluid">
                 <div class="row">
@@ -117,183 +123,315 @@
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
-
-                    <!-- Swiper JS -->
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
-
-                    <!-- Initialize Swiper -->
-                    <script>
-                        var swiper = new Swiper('.swiper-container', {
-                            pagination: '.swiper-pagination',
-                            paginationClickable: true,
-                            nextButton: '.swiper-button-next',
-                            prevButton: '.swiper-button-prev',
-                            spaceBetween: 30,
-                            autoplay: 5000,
-                            autoplayDisableOnInteraction: false
-                        });
-                    </script>
                 </div>
                 <!-- end .row -->
             </div>
             <!-- end .container-->
         </div>
-        <!-- end #section -->
-        <!-- Banner-->
+    </section>
+    <!-- end #section -->
+    <!-- Banner-->
 
-        <!-- Listing-->
-        <div class="album text-muted">
-            <div class="container">
-                <div class="card-container">
-                    <div class="card-ttl ac">Popular Shortfilms</div>
-                    <div class="row">
-                        <div class="col-sm-3 py-3">
-                            <a href="/details.php">
-                                <img class="card-img" src="https://i.ytimg.com/vi/xNP3n-VAsuk/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBWaELWc6NAJry7ZTetNoHcb6vURw" alt="Card image cap">
-                                <p class="card-text">New theme for New Generation</p>
-                                <div class="card-wrap">
-                                    <span class="card-count">2K Views</span>
-                                    <span class="card-day">2 Days ago</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-3 py-3">
-                            <a href="/details.php">
-                                <img class="card-img" src="https://i.ytimg.com/vi/jCafZht8yMA/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAQKBrp1o6Bh9ZHOznDsQdNHukZcA" alt="Card image cap">
-                                <p class="card-text">New theme for New Generation</p>
-                                <div class="card-wrap">
-                                    <span class="card-count">2K Views</span>
-                                    <span class="card-day">2 Days ago</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-3 py-3">
-                            <a href="/details.php">
-                                <img class="card-img" src="https://i.ytimg.com/vi/wK7shf-5soU/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCTT42KZVlCJpd52IgpF8-H_vnzWA" alt="Card image cap">
-                                <p class="card-text">New theme for New Generation</p>
-                                <div class="card-wrap">
-                                    <span class="card-count">2K Views</span>
-                                    <span class="card-day">2 Days ago</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-3 py-3">
-                            <a href="/details.php">
-                                <img  class="card-img" src="https://i.ytimg.com/vi/X0JXXLdDnp4/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA4grozUqZGRQ9yF5FDm5DNHjDvgA" alt="Card image cap">
-                                <p class="card-text">New theme for New Generation</p>
-                                <div class="card-wrap">
-                                    <span class="card-count">2K Views</span>
-                                    <span class="card-day">2 Days ago</span>
-                                </div>
-                            </a>
-                        </div>
+    <!-- Listing-->
+    <div class="album text-muted">
+        <div class="container">
+            <div class="card-container">
+                <div class="card-ttl ac">Popular Shortfilms</div>
+                <div class="row">
+                    <div class="col-sm-3 py-3">
+                        <a href="/details.php">
+                            <img class="card-img" src="https://i.ytimg.com/vi/xNP3n-VAsuk/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBWaELWc6NAJry7ZTetNoHcb6vURw" alt="Card image cap">
+                            <p class="card-text">New theme for New Generation</p>
+                            <div class="card-wrap">
+                                <span class="card-count">2K Views</span>
+                                <span class="card-day">2 Days ago</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 py-3">
+                        <a href="/details.php">
+                            <img class="card-img" src="https://i.ytimg.com/vi/jCafZht8yMA/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAQKBrp1o6Bh9ZHOznDsQdNHukZcA" alt="Card image cap">
+                            <p class="card-text">New theme for New Generation</p>
+                            <div class="card-wrap">
+                                <span class="card-count">2K Views</span>
+                                <span class="card-day">2 Days ago</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 py-3">
+                        <a href="/details.php">
+                            <img class="card-img" src="https://i.ytimg.com/vi/wK7shf-5soU/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCTT42KZVlCJpd52IgpF8-H_vnzWA" alt="Card image cap">
+                            <p class="card-text">New theme for New Generation</p>
+                            <div class="card-wrap">
+                                <span class="card-count">2K Views</span>
+                                <span class="card-day">2 Days ago</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 py-3">
+                        <a href="/details.php">
+                            <img  class="card-img" src="https://i.ytimg.com/vi/X0JXXLdDnp4/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA4grozUqZGRQ9yF5FDm5DNHjDvgA" alt="Card image cap">
+                            <p class="card-text">New theme for New Generation</p>
+                            <div class="card-wrap">
+                                <span class="card-count">2K Views</span>
+                                <span class="card-day">2 Days ago</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="card-container">
-                    <div class="card-ttl ac">Trailers</div>
-                    <div class="row">
-                        <div class="col-sm-3 py-3">
-                            <a href="/details.php">
-                                <img class="card-img" src="https://i.ytimg.com/vi/fhZk4GzC1QY/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBFqBkKBXYgMQJGaVEGJ1VVHt9RLg" alt="Card image cap">
-                                <p class="card-text">New theme for New Generation</p>
-                                <div class="card-wrap">
-                                    <span class="card-count">2K Views</span>
-                                    <span class="card-day">2 Days ago</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-3 py-3">
-                            <a href="/details.php">
-                                <img class="card-img" src="https://i.ytimg.com/vi/KV8Wpnpm_lg/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCbiAg7455K3G4LB00hQDuq3ZDU7Q" alt="Card image cap">
-                                <p class="card-text">New theme for New Generation</p>
-                                <div class="card-wrap">
-                                    <span class="card-count">2K Views</span>
-                                    <span class="card-day">2 days ago</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-3 py-3">
-                            <a href="/details.php">
-                                <img class="card-img" src="https://i.ytimg.com/vi/UYnBb0bDPSM/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBDTsl3-v5ye1X050ZtrEdqR1zKAA" alt="Card image cap">
-                                <p class="card-text">New theme for New Generation</p>
-                                <div class="card-wrap">
-                                    <span class="card-count">2K Views</span>
-                                    <span class="card-day">2 Days ago</span>
-                                </div>
-                            </a>
-                        </div>
+            </div>
+            <div class="card-container">
+                <div class="card-ttl ac">Trailers</div>
+                <div class="row">
+                    <div class="col-sm-3 py-3">
+                        <a href="/details.php">
+                            <img class="card-img" src="https://i.ytimg.com/vi/fhZk4GzC1QY/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBFqBkKBXYgMQJGaVEGJ1VVHt9RLg" alt="Card image cap">
+                            <p class="card-text">New theme for New Generation</p>
+                            <div class="card-wrap">
+                                <span class="card-count">2K Views</span>
+                                <span class="card-day">2 Days ago</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 py-3">
+                        <a href="/details.php">
+                            <img class="card-img" src="https://i.ytimg.com/vi/KV8Wpnpm_lg/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCbiAg7455K3G4LB00hQDuq3ZDU7Q" alt="Card image cap">
+                            <p class="card-text">New theme for New Generation</p>
+                            <div class="card-wrap">
+                                <span class="card-count">2K Views</span>
+                                <span class="card-day">2 days ago</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 py-3">
+                        <a href="/details.php">
+                            <img class="card-img" src="https://i.ytimg.com/vi/UYnBb0bDPSM/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBDTsl3-v5ye1X050ZtrEdqR1zKAA" alt="Card image cap">
+                            <p class="card-text">New theme for New Generation</p>
+                            <div class="card-wrap">
+                                <span class="card-count">2K Views</span>
+                                <span class="card-day">2 Days ago</span>
+                            </div>
+                        </a>
+                    </div>
 
-                        <div class="col-sm-3 py-3">
-                            <a href="/details.php">
-                                <img class="card-img" src="https://i.ytimg.com/vi/HQXaZewuc8o/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA1RHRi2grWxxPJ5DjwDuQzjtQcAg" alt="Card image cap">
-                                <p class="card-text">New theme for New Generation</p>
-                                <div class="card-wrap">
-                                    <span class="card-count">2K Views</span>
-                                    <span class="card-day">2 Days ago</span>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col-sm-3 py-3">
+                        <a href="/details.php">
+                            <img class="card-img" src="https://i.ytimg.com/vi/HQXaZewuc8o/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA1RHRi2grWxxPJ5DjwDuQzjtQcAg" alt="Card image cap">
+                            <p class="card-text">New theme for New Generation</p>
+                            <div class="card-wrap">
+                                <span class="card-count">2K Views</span>
+                                <span class="card-day">2 Days ago</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <div class="ac">
-                    <button class="more-btn">View More Categories</button>
-                </div>
+            <div class="ac">
+                <button class="more-btn">View More Categories</button>
             </div>
         </div>
-        <!-- Listing-->
+    </div>
+    <!-- Listing-->
 
 
-        <!-- description-->
-        <div class="">
-            <div class="extend-content">
-                <div class="desc-sec">
-                    <ul class="desc-sec__list row">
-                        <li class="col-sm-4 desc-sec__item ac">
-                            <img class="desc-sec__img" src="dist/images/icons/play.svg">
-                            <div class="desc-sec__text">Watch Millions of <br>videos online</div>
-                        </li>
-                        <li class="col-sm-4 desc-sec__item ac">
-                            <img class="desc-sec__img" src="dist/images/icons/upload.svg">
-                            <div class="desc-sec__text">Upload and Manage <br>your videos online</div>
-                        </li>
-                        <li class="col-sm-4 desc-sec__item ac">
-                            <img class="desc-sec__img" src="dist/images/icons/device.svg">
-                            <div class="desc-sec__text">Watch anywhere, <br>on any device</div>
-                        </li>
-                    </ul>
-                </div>
+    <!-- description-->
+    <div class="">
+        <div class="extend-content">
+            <div class="desc-sec">
+                <ul class="desc-sec__list row">
+                    <li class="col-sm-4 desc-sec__item ac">
+                        <img class="desc-sec__img" src="dist/images/icons/play.svg">
+                        <div class="desc-sec__text">Watch Millions of <br>videos online</div>
+                    </li>
+                    <li class="col-sm-4 desc-sec__item ac">
+                        <img class="desc-sec__img" src="dist/images/icons/upload.svg">
+                        <div class="desc-sec__text">Upload and Manage <br>your videos online</div>
+                    </li>
+                    <li class="col-sm-4 desc-sec__item ac">
+                        <img class="desc-sec__img" src="dist/images/icons/device.svg">
+                        <div class="desc-sec__text">Watch anywhere, <br>on any device</div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <!-- description-->
+    </div>
+    <!-- description-->
 
-        <!--invite-sec-->
-        <div class="bg-white container">
-            <div class="invite-sec ac">
-                <div class="invite-sec__banner"></div>
-                <div class="invite-sec__ttl">Join FlipCinema</div>
-                <div class="invite-sec__txt">In this special occassion join and enjoy over tons of music <br> experience in all gener and enjoy.</div>
-                <a href="#" class="btn invite-sec__btn">Join Now</a>
-            </div>
+    <!--invite-sec-->
+    <div class="bg-white container">
+        <div class="invite-sec ac">
+            <div class="invite-sec__banner"></div>
+            <div class="invite-sec__ttl">Join FlipCinema</div>
+            <div class="invite-sec__txt">In this special occassion join and enjoy over tons of music <br> experience in all gener and enjoy.</div>
+            <a href="#" class="btn invite-sec__btn">Join Now</a>
         </div>
-        <!--invite-sec-->
+    </div>
+    <!--invite-sec-->
 
-        <!-- Footer-->
-        <footer class="footer-sec">
-            <div class="container">
-                <p class="float-right">
-                    <!--<a href="#">Back to top</a>-->
-                </p>
-                <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-                <!--<p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>-->
-            </div>
-        </footer>
-        <!-- Footer-->
+    <!-- Footer-->
+    <footer class="footer-sec">
+        <div class="container">
+            <p class="float-right">
+                <!--<a href="#">Back to top</a>-->
+            </p>
+            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+            <!--<p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>-->
+        </div>
+    </footer>
+    <!-- Footer-->
 
-        <!-- Bootstrap core JavaScript -->
-        <script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
-        <!--<script src="/bower_components/popper.js/dist/popper.min.js"></script>-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
-        <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Login-->
+    <div class="wrap">
+        <header role="banner">
+            <div id="cd-logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>
+
+            <nav class="main-nav">
+                <ul>
+                    <!-- inser more links here -->
+                    <li><a class="cd-signin" href="#0">Sign in</a></li>
+                    <li><a class="cd-signup" href="#0">Sign up</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+            <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+                <ul class="cd-switcher">
+                    <li><a href="#0">Sign in</a></li>
+                    <li><a href="#0">New account</a></li>
+                </ul>
+
+                <div id="cd-login"> <!-- log in form -->
+                    <form class="cd-form">
+                        <p class="fieldset">
+                            <label class="image-replace cd-email" for="signin-email">E-mail</label>
+                            <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signin-password">Password</label>
+                            <input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+                            <a href="#0" class="hide-password">Hide</a>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <input type="checkbox" id="remember-me" checked>
+                            <label for="remember-me">Remember me</label>
+                        </p>
+
+                        <p class="fieldset">
+                            <input class="full-width" type="submit" value="Login">
+                        </p>
+                    </form>
+
+                    <p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+                    <!-- <a href="#0" class="cd-close-form">Close</a> -->
+                </div> <!-- cd-login -->
+
+                <div id="cd-signup"> <!-- sign up form -->
+                    <form class="cd-form">
+                        <p class="fieldset">
+                            <label class="image-replace cd-username" for="signup-username">Username</label>
+                            <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-email" for="signup-email">E-mail</label>
+                            <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signup-password">Password</label>
+                            <input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
+                            <a href="#0" class="hide-password">Hide</a>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <input type="checkbox" id="accept-terms">
+                            <label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+                        </p>
+
+                        <p class="fieldset">
+                            <input class="full-width has-padding" type="submit" value="Create account">
+                        </p>
+                    </form>
+
+                    <!-- <a href="#0" class="cd-close-form">Close</a> -->
+                </div> <!-- cd-signup -->
+
+                <div id="cd-reset-password"> <!-- reset password form -->
+                    <p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+                    <form class="cd-form">
+                        <p class="fieldset">
+                            <label class="image-replace cd-email" for="reset-email">E-mail</label>
+                            <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <input class="full-width has-padding" type="submit" value="Reset password">
+                        </p>
+                    </form>
+
+                    <p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+                </div> <!-- cd-reset-password -->
+                <a href="#0" class="cd-close-form">Close</a>
+            </div> <!-- cd-user-modal-container -->
+        </div>
+        <!-- cd-user-modal -->
+        <!-- Login -->
+</body>
+</html>
+</div>
+<!-- navbar-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Gem jQuery -->
+<script src="js/classie.js"></script>
+<script>
+    var menuLeft = document.getElementById('cbp-spmenu-s1'),
+            body = document.body;
+
+    showLeft.onclick = function () {
+        classie.toggle(this, 'active');
+        classie.toggle(menuLeft, 'cbp-spmenu-open');
+        disableOther('showLeft');
+    };
+
+    function disableOther(button) {
+        if (button !== 'showLeft') {
+            classie.toggle(showLeft, 'disabled');
+        }
+    }
+</script>
+<!-- Swiper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        autoplay: 5000,
+        autoplayDisableOnInteraction: false
+    });
+</script>
+<script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<!--<script src="/bower_components/popper.js/dist/popper.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<!--<script src="/bower_components/popper.js/dist/popper.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 </html>
