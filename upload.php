@@ -76,9 +76,14 @@
                                         <div class="upload-list__subbody">
                                             <img src="dist/images/img.jpg" alt=""/>
                                         </div>
-                                        <span class="upload-list__rating">Rating: </span>
-                                        <span class="upload-list__value">0 </span>
-                                        <button type="button">Play</button>
+                                        <div class="detail-wrap__left">
+                                            <i class="detail-wrap__icon svg-icon"><img src="dist/icons/like.svg"></i>
+                                            <span class="detail-wrap__count">20k</span>
+                                            <i class="detail-wrap__icon svg-icon"><img src="dist/icons/dislike.svg"></i>
+                                            <span class="detail-wrap__count">4k</span>
+                                            <button type="button">Play</button>
+                                        </div>
+
                                     </li>
                                     <li class="upload-list__item">
                                         <div class="upload-list__subhead">
@@ -87,9 +92,13 @@
                                         <div class="upload-list__subbody">
                                             <img src="dist/images/img.jpg" alt=""/>
                                         </div>
-                                        <span class="upload-list__rating">Rating: </span>
-                                        <span class="upload-list__value">0 </span>
-                                        <button type="button">Play</button>
+                                        <div class="detail-wrap__left">
+                                            <i class="detail-wrap__icon svg-icon"><img src="dist/icons/like.svg"></i>
+                                            <span class="detail-wrap__count">20k</span>
+                                            <i class="detail-wrap__icon svg-icon"><img src="dist/icons/dislike.svg"></i>
+                                            <span class="detail-wrap__count">4k</span>
+                                            <button type="button">Play</button>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
