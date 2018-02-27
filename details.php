@@ -257,5 +257,15 @@
         <!--<script src="/bower_components/popper.js/dist/popper.min.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
         <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function () {
+                $('#play-video').on('click', function (ev) {
+
+                    $("#video")[0].src += "&autoplay=1";
+                    ev.preventDefault();
+
+                });
+            });
+        </script>
     </body>
 </html>
