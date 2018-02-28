@@ -49,11 +49,16 @@
             <div class="col-sm-8">
                 <div class="detail-wrap__full">
                     <div class="detail-wrap__content">
-                        <div class="detail-wrap__img">
+                        <!--<div class="detail-wrap__img">
                             <img src="/dist/images/img.jpg">
                             <button class="detail-wrap__duration">
                                 <img src="/dist/icons/play-button.svg">
                             </button>
+                        </div>-->
+                        <div class="video-container">
+                            <iframe width="420" height="315"
+                                    src="Sunrise.mp4">
+                            </iframe>
                         </div>
                     </div>
                     <div class="detail-wrap__wrap">
