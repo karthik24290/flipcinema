@@ -6,67 +6,71 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="/favicon.ico">
-
         <title>FlipCinema</title>
 
         <!-- Bootstrap core CSS -->
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
         <link href="/dist/css/style.css" rel="stylesheet">
-        <script src="js/modernizr.js"></script> <!-- Modernizr -->
         <link href="/dist/css/home.css" rel="stylesheet">
+        <link href="/dist/css/component.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+        <link href="/dist/css/normalize.css" rel="stylesheet">
+        <script src="js/modernizr.js"></script> <!-- Modernizr -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="dist/js/classie.js" type="text/javascript"></script>
+        <script src="dist/js/gnmenu.js" type="text/javascript"></script>
+        <script src="dist/js/modernizr.custom.js" type="text/javascript"></script>
     </head>
 
     <body>  
 
-        <!-- Navbar-->
-        <div class="collapse bg-dark" id="navbarHeader">
-            <div class="container">
-                <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-                    <h3>Menu</h3>
-                    <a href="#">Short Films</a>
-                    <a href="#">Trailers</a>
-                    <a href="#">Songs</a>
-                    <a href="#">Videos</a>
-                    <a href="#">bunya</a>
-                    <a href="#">Rutabaga</a>
-                </nav>
-            </div>
-        </div>
-
-
         <!-- Header-->
 
-        <!-- Header-->
-        <div class="navbar navbar-dark bg-dark">
-            <div class="container d-flex justify-content-between">
-                <a class="logo-ttl" href="index.php">Flip cinema</a>
-                <button id="showLeft" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu</button>
-                <a href="upload.php" class="nav-ttl">upload</a>
-                <nav class="main-nav">
-                    <!-- inser more links here -->
-                    <a class="cd-signin" href="#0">Sign in</a>
-                </nav>
-            </div>
-        </div>
+        <div class="container">
+            <ul id="gn-menu" class="gn-menu-main">
+                <li class="gn-trigger">
+                    <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                    <nav class="gn-menu-wrapper">
+                        <div class="gn-scroller">
+                            <ul class="gn-menu">
+                                <li class="gn-search-item">
+                                    <input placeholder="Search" type="search" class="gn-search">
+                                    <a class="gn-icon gn-icon-search"><span>Search</span></a>
+                                </li>
+                                <li>
+                                    <a class="gn-icon gn-icon-download">Downloads</a>
+                                    <ul class="gn-submenu">
+                                        <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
+                                        <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="gn-icon gn-icon-cog">Settings</a></li>
+                                <li><a class="gn-icon gn-icon-help">Help</a></li>
+                                <li>
+                                    <a class="gn-icon gn-icon-archive">Archives</a>
+                                    <ul class="gn-submenu">
+                                        <li><a class="gn-icon gn-icon-article">Articles</a></li>
+                                        <li><a class="gn-icon gn-icon-pictures">Images</a></li>
+                                        <li><a class="gn-icon gn-icon-videos">Videos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!-- /gn-scroller -->
+                    </nav>
+                </li>
+                <li><a href="index.php">FOFO Media</a></li>
+                <li><a class="" href="upload.php"><span>Upload</span></a></li>
+                <li class="main-nav">
+                    <a class="cd-signin" href="#0"><span>Sign in</span></a>
+                </li>
+            </ul>
+
+        </div><!-- /container -->
         <!-- Header-->
 
         <!-- banner-->
-        <!--<div class="banner">
-            <div class="banner__bg">
-                <video autoplay="" loop="" muted="" id="awards-bg-video">
-                    <source src="/dist/banner.mp4" type="video/mp4">
-                    <source src="https://auto.ndtvimg.com/media/video/cnb-awards/awards-bg.webm" type="video/webm">        
-                </video>
-            </div>
-            <div class="jumbotron text-center">
-                <div class="container">
-                    <div class="banner__img">
-                        <h1 class="banner-ttl">Movie<span class="banner-subttl">pass</span></h1>
-                    </div>
-                </div>
-            </div>
-        </div>-->
+
         <section id="lab_video_slider">
             <div class="container-fluid">
                 <div class="row">
@@ -129,7 +133,6 @@
             <!-- end .container-->
         </div>
     </section>
-    <!-- end #section -->
     <!-- Banner-->
 
     <!-- Listing-->
@@ -283,18 +286,6 @@
 
     <!-- Login-->
     <div class="wrap">
-        <header role="banner">
-            <div id="cd-logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>
-
-            <nav class="main-nav">
-                <ul>
-                    <!-- inser more links here -->
-                    <li><a class="cd-signin" href="#0">Sign in</a></li>
-                    <li><a class="cd-signup" href="#0">Sign up</a></li>
-                </ul>
-            </nav>
-        </header>
-
         <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
             <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
                 <ul class="cd-switcher">
@@ -393,23 +384,6 @@
 <!-- navbar-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/main.js"></script> <!-- Gem jQuery -->
-<script src="js/classie.js"></script>
-<script>
-    var menuLeft = document.getElementById('cbp-spmenu-s1'),
-            body = document.body;
-
-    showLeft.onclick = function () {
-        classie.toggle(this, 'active');
-        classie.toggle(menuLeft, 'cbp-spmenu-open');
-        disableOther('showLeft');
-    };
-
-    function disableOther(button) {
-        if (button !== 'showLeft') {
-            classie.toggle(showLeft, 'disabled');
-        }
-    }
-</script>
 <!-- Swiper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
 
@@ -425,13 +399,14 @@
         autoplayDisableOnInteraction: false
     });
 </script>
-<script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <!--<script src="/bower_components/popper.js/dist/popper.min.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
 <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <!--<script src="/bower_components/popper.js/dist/popper.min.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
-<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script>
+    new gnMenu(document.getElementById('gn-menu'));
+</script>
 </body>
 </html>
