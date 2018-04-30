@@ -13,36 +13,6 @@
     </head>
 
     <body>
-        <!-- Navbar-->
-        <div class="collapse bg-dark" id="navbarHeader">
-            <div class="container">
-                <div class="nav-subnav row">
-                    <ul class="list-unstyled nav-subnav__list ac">
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Short Films</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Movie Teasers</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Movie Trailers</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Folk Songs</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Poems</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Movie Trailers</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- navbar-->
-
-        <!-- Header-->
-        <div class="navbar navbar-dark bg-dark">
-            <div class="container d-flex justify-content-between">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="logo-ttl" href="index.php">Flip cinema</a>
-                <a href="#" class="nav-ttl">Browse</a>
-                <a href="#" class="nav-ttl">Register</a>
-            </div>
-        </div>
-        <!-- Header-->
-
 
         <!-- details-->
         <div class="detail-wrap row">
@@ -66,15 +36,19 @@
                         <div class="detail-wrap__subttl">tamil cinema review</div>
                         <div class="detail-wrap__iconwrap">
                             <div class="detail-wrap__left">
-                                <i class="detail-wrap__icon svg-icon"><img src="dist/icons/like.svg"></i>
+                                <button class="detail-wrap__btn">
+                                    <i class="detail-wrap__icon svg-icon"><img src="dist/icons/like.svg"></i>
+                                </button>
                                 <span class="detail-wrap__count">20k</span>
-                                <i class="detail-wrap__icon svg-icon"><img src="dist/icons/dislike.svg"></i>
+                                <button class="detail-wrap__btn">
+                                    <i class="detail-wrap__icon svg-icon"><img src="dist/icons/dislike.svg"></i>
+                                </button>
                                 <span class="detail-wrap__count">4k</span>
                             </div>
                             <div class="detail-wrap__right">
-                                <i class="detail-wrap__ryticon svg-icon"><img src="dist/icons/share.svg"></i>
-                                <i class="detail-wrap__ryticon svg-icon"><img src="dist/icons/chat.svg"></i>
-                                <i class="detail-wrap__ryticon svg-icon"><img src="dist/icons/later.svg"></i>
+                                <!--<i class="detail-wrap__ryticon svg-icon"><img src="dist/icons/share.svg"></i>-->
+                                <!--<i class="detail-wrap__ryticon svg-icon"><img src="dist/icons/chat.svg"></i>-->
+                                <!--<i class="detail-wrap__ryticon svg-icon"><img src="dist/icons/later.svg"></i>-->
                             </div>
                         </div>
                     </div>

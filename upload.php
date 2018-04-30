@@ -15,34 +15,6 @@
 
     <body style="background-color: #f1f1f1; min-height: 100%;">
 
-        <!-- Navbar-->
-        <div class="collapse bg-dark" id="navbarHeader">
-            <div class="container">
-                <div class="nav-subnav row">
-                    <ul class="list-unstyled nav-subnav__list ac">
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Short Films</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Movie Teasers</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Movie Trailers</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Folk Songs</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Poems</a></li>
-                        <li class="nav-subnav__item"><a href="#" class="nav-subnav__link text-white">Movie Trailers</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- navbar-->
-
-        <!-- Header-->
-        <div class="navbar navbar-dark bg-dark mb2">
-            <div class="container d-flex justify-content-between">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="logo-ttl" href="index.php">Flip cinema</a>
-                <div class="nav-ttl">Browse</div>
-            </div>
-        </div>
-        <!-- Header-->
 
         <!-- Upload-->
         <div class="container">
@@ -60,6 +32,8 @@
                                 </div>
                             </div>
                         </div>
+                        <button type="button" class="btn btn-primary">Submit</button>
+
                     </div>
                     <div class="col-sm-6">
                         <div class="upload-container__box">
@@ -72,16 +46,16 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <button type="button" class="btn btn-primary">Submit</button>
-                    </div>
-                    <div class="col-sm-6">
                         <button type="button" class="btn btn-primary">Submit</button>
                     </div>
                 </div>
+                <!--                <div class="row">
+                                    <div class="col-sm-6">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <button type="button" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>-->
             </div>
             <!-- upload-container-->
 
@@ -99,15 +73,20 @@
                                     <div class="upload-list__subhead">
                                         <div class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</div>
                                     </div>
+                                    <div class="upload-list__title">Video Title</div>
                                     <div class="upload-list__subbody">
                                         <img src="dist/images/img.jpg" alt=""/>
                                     </div>
                                     <div class="detail-wrap__left">
-                                        <i class="detail-wrap__icon svg-icon"><img src="dist/icons/like.svg"></i>
+                                        <button class="detail-wrap__btn">
+                                            <i class="detail-wrap__icon svg-icon"><img src="dist/icons/like.svg"></i>
+                                        </button>
                                         <span class="detail-wrap__count">20k</span>
-                                        <i class="detail-wrap__icon svg-icon"><img src="dist/icons/dislike.svg"></i>
+                                        <button class="detail-wrap__btn">
+                                            <i class="detail-wrap__icon svg-icon"><img src="dist/icons/dislike.svg"></i>
+                                        </button>
                                         <span class="detail-wrap__count">4k</span>
-                                        <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"> Play </button>
+                                        <button type="button" class="upload-list__btn btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"> Play </button>
                                     </div>
                                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
@@ -129,6 +108,7 @@
                                     <div class="upload-list__subhead">
                                         <div class="upload-list__link">Gulaebaghavali | Guleba Full Video Song</div>
                                     </div>
+                                    <div class="upload-list__title">Video Title</div>
                                     <div class="upload-list__subbody">
                                         <img src="dist/images/img.jpg" alt=""/>
                                     </div>
@@ -137,7 +117,7 @@
                                         <span class="detail-wrap__count">20k</span>
                                         <i class="detail-wrap__icon svg-icon"><img src="dist/icons/dislike.svg"></i>
                                         <span class="detail-wrap__count">4k</span>
-                                        <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"> Play </button>
+                                        <button type="button" class="upload-list__btn btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"> Play </button>
                                     </div>
                                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">

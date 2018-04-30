@@ -1,71 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Flip</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="/dist/css/header.css" rel="stylesheet">
-        <link href="/dist/css/style.css" rel="stylesheet">
-        <script src="js/modernizr.js"></script> <!-- Modernizr -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Adtile Fixed Nav</title>
+        <meta name="author" content="Adtile">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="dist/css/styles.css">
+        <link rel="stylesheet" href="css/ie.css">
+        <script src="dist/js/responsive-nav.js"></script>
+        <!-- Style Sheets --> 
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="dist/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            if (typeof jQuery == 'undefined')
+                document.write(unescape("%3Cscript src='dist/js/jquery-1.9.js'" +
+                        "type='text/javascript'%3E%3C/script%3E"))
+        </script>
     </head>
     <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand navbar-toggle collapsed" href="#menu-toggle" aria-hidden="true"id="menu-toggle">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav row">
-                        <li class="col-sm-4"><a href="#">flip cinema</a></li>
-                        <li class="col-sm-4"><a href="#">Upload</a></li>
-                        <li class="col-sm-4"><a class="cd-signin" href="#0">Sign in</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-        <div id="wrapper" class="toggled">
-            <div class="container-fluid">
-                <!-- Sidebar -->
-                <div id="sidebar-wrapper">
-                    <ul class="sidebar-nav">
-                        <li class="sidebar-brand">
-                            <br>
-                        </li>
-                        <li class="sidebar-brand">
-                            <a href="#" class="navbar-brand">
-                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Shortfilms
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Teaser</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Films</a>
-                        </li>                
-                        <li>
-                            <a href="#"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Videos</a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Gramiam</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /#sidebar-wrapper -->
+        <header>
+            <a href="#home" class="logo" data-scroll>FOFO MEDIA</a>
+            <nav class=" main-nav nav-collapse">
+                <ul>
+                    <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
+                    <li class="menu-item"><a href="#">About</a></li>
+                    <li class="menu-item"><a href="#">Teasers</a></li>
+                    <li class="menu-item"><a href="#">Short Fims</a></li>
+                    <li class="menu-item"><a href="#">Kids Videos</a></li>
+                    <li class="menu-item"><a href="#">Songs</a></li>
+                    <li class="menu-item"><a href="#">Grammiam songs</a></li>
+                    <li class="menu-item"><a class="cd-signin" href="#">Sign in</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            </div>
-        </div>
-        <!-- /#wrapper -->
-        <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
-            <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+        <div class="cd-user-modal">
+            <div class="cd-user-modal-container">
                 <ul class="cd-switcher">
                     <li><a href="#0">Sign in</a></li>
                     <li><a href="#0">New account</a></li>
@@ -154,79 +126,28 @@
                 <a href="#0" class="cd-close-form">Close</a>
             </div> <!-- cd-user-modal-container -->
         </div>
-        <!-- cd-user-modal -->
-        <!-- Login -->
 
-        <script>
-            $("#menu-toggle").click(function (e) {
-                e.preventDefault();
-                $("#wrapper").toggleClass("toggled");
-            });
-        </script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <section id="home">
+
+
+        </section>
+
+<!--        <section id="about">
+            <h1>About</h1>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+        </section>
+
+        <section id="blog">
+            <h1>Blog</h1>
+        </section>-->
+
+        <script src="dist/js/fastclick.js"></script>
+        <script src="dist/js/scroll.js"></script>
+        <script src="dist/js/fixed-responsive-nav.js"></script>
         <script src="js/main.js"></script> <!-- Gem jQuery -->
         <script src="js/classie.js"></script>
-        <script>
-                    var menuLeft = document.getElementById('cbp-spmenu-s1'),
-                            body = document.body;
-
-                    showLeft.onclick = function () {
-                        classie.toggle(this, 'active');
-                        classie.toggle(menuLeft, 'cbp-spmenu-open');
-                        disableOther('showLeft');
-                    };
-
-                    function disableOther(button) {
-                        if (button !== 'showLeft') {
-                            classie.toggle(showLeft, 'disabled');
-                        }
-                    }
-        </script>
-        
-        
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/main.js"></script> <!-- Gem jQuery -->
-<script src="js/classie.js"></script>
-<script>
-    var menuLeft = document.getElementById('cbp-spmenu-s1'),
-            body = document.body;
-
-    showLeft.onclick = function () {
-        classie.toggle(this, 'active');
-        classie.toggle(menuLeft, 'cbp-spmenu-open');
-        disableOther('showLeft');
-    };
-
-    function disableOther(button) {
-        if (button !== 'showLeft') {
-            classie.toggle(showLeft, 'disabled');
-        }
-    }
-</script>
-<!-- Swiper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
-
-<!-- Initialize Swiper -->
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        spaceBetween: 30,
-        autoplay: 5000,
-        autoplayDisableOnInteraction: false
-    });
-</script>
-<script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
-<!--<script src="/bower_components/popper.js/dist/popper.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
-<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
-<!--<script src="/bower_components/popper.js/dist/popper.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" type="text/javascript"></script>
-<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
-
     </body>
 </html>
-
