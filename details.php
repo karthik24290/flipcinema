@@ -65,6 +65,15 @@
 
                 </div>
 
+                <form action="" method="POST">
+                    <input id="displayBuffer" type="hidden">
+                    <textarea class="form-control detail-list__textarea" rows ="1" cols ="" name="detail-list__textarea" aria-hidden="true" placeholder="Add a Public Comment"></textarea>
+                    <p class="detail-list__textcontent"></p>
+
+                    <input class="detail-list__textbtn" type="button" id="p" value="Comments">
+
+                    <div class="detail-list__textwrap"></div>
+                </form>
             </div>
             <div class="col-sm-4">
                 <div class="detail-list">
@@ -244,6 +253,11 @@
                     ev.preventDefault();
 
                 });
+            });
+        </script>
+        <script>
+            $('#p').click(function () {
+                $('.detail-list__textwrap').html($('.detail-list__textarea').val());
             });
         </script>
     </body>
