@@ -95,106 +95,123 @@
     <!-- Banner-->
 
     <!-- Listing-->
-    <div class="album text-muted">
-        <div class="container">
-            <div class="card-container">
-                <div class="card-ttl ac">Popular Shortfilms</div>
-                <div class="row">
-                    <div class="col-sm-3 py-3">
-                        <a href="/details.php">
-                            <img class="card-img" src="https://i.ytimg.com/vi/xNP3n-VAsuk/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBWaELWc6NAJry7ZTetNoHcb6vURw" alt="Card image cap">
-                            <p class="card-text">New theme for New Generation</p>
-                            <div class="card-wrap">
-                                <span class="card-count">2K Views</span>
-                                <span class="card-day">2 Days ago</span>
+
+    <div class="toggle-slide toggle-slide--default toggle-slide--hidelink">
+
+        <input class="toggle-slide__input" type="checkbox" id="toggle-moreDetails" />
+        <div class="toggle-slide__content">
+            <div class="album text-muted">
+                <div class="container">
+                    <div class="card-container">
+                        <div class="card-ttl ac">Popular Shortfilms</div>
+                        <div class="row">
+                            <div class="col-sm-3 py-3">
+                                <a href="/details.php">
+                                    <img class="card-img" src="https://i.ytimg.com/vi/xNP3n-VAsuk/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBWaELWc6NAJry7ZTetNoHcb6vURw" alt="Card image cap">
+                                    <p class="card-text">New theme for New Generation</p>
+                                    <div class="card-wrap">
+                                        <span class="card-count">2K Views</span>
+                                        <span class="card-day">2 Days ago</span>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                            <div class="col-sm-3 py-3">
+                                <a href="/details.php">
+                                    <img class="card-img" src="https://i.ytimg.com/vi/jCafZht8yMA/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAQKBrp1o6Bh9ZHOznDsQdNHukZcA" alt="Card image cap">
+                                    <p class="card-text">New theme for New Generation</p>
+                                    <div class="card-wrap">
+                                        <span class="card-count">2K Views</span>
+                                        <span class="card-day">2 Days ago</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-3 py-3">
+                                <a href="/details.php">
+                                    <img class="card-img" src="https://i.ytimg.com/vi/wK7shf-5soU/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCTT42KZVlCJpd52IgpF8-H_vnzWA" alt="Card image cap">
+                                    <p class="card-text">New theme for New Generation</p>
+                                    <div class="card-wrap">
+                                        <span class="card-count">2K Views</span>
+                                        <span class="card-day">2 Days ago</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-3 py-3">
+                                <a href="/details.php">
+                                    <img  class="card-img" src="https://i.ytimg.com/vi/X0JXXLdDnp4/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA4grozUqZGRQ9yF5FDm5DNHjDvgA" alt="Card image cap">
+                                    <p class="card-text">New theme for New Generation</p>
+                                    <div class="card-wrap">
+                                        <span class="card-count">2K Views</span>
+                                        <span class="card-day">2 Days ago</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-3 py-3">
-                        <a href="/details.php">
-                            <img class="card-img" src="https://i.ytimg.com/vi/jCafZht8yMA/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAQKBrp1o6Bh9ZHOznDsQdNHukZcA" alt="Card image cap">
-                            <p class="card-text">New theme for New Generation</p>
-                            <div class="card-wrap">
-                                <span class="card-count">2K Views</span>
-                                <span class="card-day">2 Days ago</span>
+                    <div class="card-container">
+                        <div class="card-ttl ac">Trailers</div>
+                        <div class="row">
+                            <div class="col-sm-3 py-3">
+                                <a href="/details.php">
+                                    <img class="card-img" src="https://i.ytimg.com/vi/fhZk4GzC1QY/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBFqBkKBXYgMQJGaVEGJ1VVHt9RLg" alt="Card image cap">
+                                    <p class="card-text">New theme for New Generation</p>
+                                    <div class="card-wrap">
+                                        <span class="card-count">2K Views</span>
+                                        <span class="card-day">2 Days ago</span>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-3 py-3">
-                        <a href="/details.php">
-                            <img class="card-img" src="https://i.ytimg.com/vi/wK7shf-5soU/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCTT42KZVlCJpd52IgpF8-H_vnzWA" alt="Card image cap">
-                            <p class="card-text">New theme for New Generation</p>
-                            <div class="card-wrap">
-                                <span class="card-count">2K Views</span>
-                                <span class="card-day">2 Days ago</span>
+                            <div class="col-sm-3 py-3">
+                                <a href="/details.php">
+                                    <img class="card-img" src="https://i.ytimg.com/vi/KV8Wpnpm_lg/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCbiAg7455K3G4LB00hQDuq3ZDU7Q" alt="Card image cap">
+                                    <p class="card-text">New theme for New Generation</p>
+                                    <div class="card-wrap">
+                                        <span class="card-count">2K Views</span>
+                                        <span class="card-day">2 days ago</span>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-3 py-3">
-                        <a href="/details.php">
-                            <img  class="card-img" src="https://i.ytimg.com/vi/X0JXXLdDnp4/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA4grozUqZGRQ9yF5FDm5DNHjDvgA" alt="Card image cap">
-                            <p class="card-text">New theme for New Generation</p>
-                            <div class="card-wrap">
-                                <span class="card-count">2K Views</span>
-                                <span class="card-day">2 Days ago</span>
+                            <div class="col-sm-3 py-3">
+                                <a href="/details.php">
+                                    <img class="card-img" src="https://i.ytimg.com/vi/UYnBb0bDPSM/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBDTsl3-v5ye1X050ZtrEdqR1zKAA" alt="Card image cap">
+                                    <p class="card-text">New theme for New Generation</p>
+                                    <div class="card-wrap">
+                                        <span class="card-count">2K Views</span>
+                                        <span class="card-day">2 Days ago</span>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-container">
-                <div class="card-ttl ac">Trailers</div>
-                <div class="row">
-                    <div class="col-sm-3 py-3">
-                        <a href="/details.php">
-                            <img class="card-img" src="https://i.ytimg.com/vi/fhZk4GzC1QY/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBFqBkKBXYgMQJGaVEGJ1VVHt9RLg" alt="Card image cap">
-                            <p class="card-text">New theme for New Generation</p>
-                            <div class="card-wrap">
-                                <span class="card-count">2K Views</span>
-                                <span class="card-day">2 Days ago</span>
+
+                            <div class="col-sm-3 py-3">
+                                <a href="/details.php">
+                                    <img class="card-img" src="https://i.ytimg.com/vi/HQXaZewuc8o/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA1RHRi2grWxxPJ5DjwDuQzjtQcAg" alt="Card image cap">
+                                    <p class="card-text">New theme for New Generation</p>
+                                    <div class="card-wrap">
+                                        <span class="card-count">2K Views</span>
+                                        <span class="card-day">2 Days ago</span>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-3 py-3">
-                        <a href="/details.php">
-                            <img class="card-img" src="https://i.ytimg.com/vi/KV8Wpnpm_lg/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCbiAg7455K3G4LB00hQDuq3ZDU7Q" alt="Card image cap">
-                            <p class="card-text">New theme for New Generation</p>
-                            <div class="card-wrap">
-                                <span class="card-count">2K Views</span>
-                                <span class="card-day">2 days ago</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-3 py-3">
-                        <a href="/details.php">
-                            <img class="card-img" src="https://i.ytimg.com/vi/UYnBb0bDPSM/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBDTsl3-v5ye1X050ZtrEdqR1zKAA" alt="Card image cap">
-                            <p class="card-text">New theme for New Generation</p>
-                            <div class="card-wrap">
-                                <span class="card-count">2K Views</span>
-                                <span class="card-day">2 Days ago</span>
-                            </div>
-                        </a>
+                        </div>
                     </div>
 
-                    <div class="col-sm-3 py-3">
-                        <a href="/details.php">
-                            <img class="card-img" src="https://i.ytimg.com/vi/HQXaZewuc8o/hqdefault.jpg?sqp=-oaymwEWCNIBEHZIWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA1RHRi2grWxxPJ5DjwDuQzjtQcAg" alt="Card image cap">
-                            <p class="card-text">New theme for New Generation</p>
-                            <div class="card-wrap">
-                                <span class="card-count">2K Views</span>
-                                <span class="card-day">2 Days ago</span>
-                            </div>
-                        </a>
-                    </div>
                 </div>
-            </div>
-
-            <div class="ac">
-                <button class="more-btn">View More Categories</button>
             </div>
         </div>
+
+        <label class="toggle-slide__link btn btn-link" for="toggle-moreDetails">
+            <span class="toggle-slide__txt">View More Categories</span>
+            <span class="toggle-slide__txt-active">Less Details</span>
+            <i class="toggle-slide__arrow btn-link__icon svg-icon has-width" data-icon="chevron-down"></i>
+        </label>
+
     </div>
+
+
     <!-- Listing-->
+
+
+
+
 
 
     <!-- description-->
