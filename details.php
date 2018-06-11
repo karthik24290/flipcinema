@@ -26,9 +26,12 @@
                             </button>
                         </div>-->
                         <div class="video-container">
-                            <iframe width="420" height="315"
-                                    src="Sunrise.mp4">
-                            </iframe>
+<!--                            <iframe width="420" height="315"
+                                src="Sunrise.mp4">
+                        </iframe>-->
+                            <video width="420" height="315" controls>
+                                <source src="Sunrise.mp4" type="video/mp4">
+                            </video>
                         </div>
                     </div>
                     <div class="detail-wrap__wrap">
