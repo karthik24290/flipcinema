@@ -6,7 +6,7 @@
         <meta name="author" content="Adtile">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="dist/css/styles.css">
-        <link rel="stylesheet" href="css/ie.css">
+        <!--<link rel="stylesheet" href="css/ie.css">-->
         <script src="dist/js/responsive-nav.js"></script>
         <!-- Style Sheets --> 
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -75,6 +75,14 @@
                 <div id="cd-signup"> <!-- sign up form -->
                     <form class="cd-form">
                         <p class="fieldset">
+                            <label class="image-replace cd-password" for="signup-password">Password</label>
+                            <select class="full-width has-padding has-border" id="signup-password">
+                                <option value="viewer">Viewer</option>
+                                <option value="uploader">Uploader</option>
+                            </select>
+                        </p>
+
+                        <p class="fieldset">
                             <label class="image-replace cd-username" for="signup-username">Username</label>
                             <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
                             <span class="cd-error-message">Error message here!</span>
@@ -87,9 +95,43 @@
                         </p>
 
                         <p class="fieldset">
+                            <label class="image-replace cd-password" for="signup-Mobile">Mobile</label>
+                            <input class="full-width has-padding has-border" id="signup-Mobile" type="tel"  placeholder="Mobile Number" onkeypress="return isNumberKey(event)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
                             <label class="image-replace cd-password" for="signup-password">Password</label>
-                            <input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
-                            <a href="#0" class="hide-password">Hide</a>
+                            <select class="full-width has-padding has-border" id="signup-password">
+                                <option value="english">English</option>
+                                <option value="tamil">Tamil</option>
+                            </select>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signup-date">Date</label>
+                            <input class="full-width has-padding has-border" id="signup-date" type="date">
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signup-password">Gender</label>
+                            <select class="full-width has-padding has-border" id="signup-password">
+                                <option value="viewer">Male</option>
+                                <option value="uploader">Female</option>
+                            </select>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signup-password">Password</label>
+                            <input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="Password">
+                            <a href="#0" class="hide-password">Show</a>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signup-password">Confirm Password</label>
+                            <input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="Password">
+                            <a href="#0" class="hide-password">Show</a>
                             <span class="cd-error-message">Error message here!</span>
                         </p>
 
@@ -143,7 +185,14 @@
         <section id="blog">
             <h1>Blog</h1>
         </section>-->
-
+        <script>
+            function isNumberKey(evt) {
+                var charCode = (evt.which) ? evt.which : event.keyCode
+                if (charCode > 31 && (charCode < 48 || charCode > 57))
+                    return false;
+                return true;
+            }
+        </script>
         <script src="dist/js/fastclick.js"></script>
         <script src="dist/js/scroll.js"></script>
         <script src="dist/js/fixed-responsive-nav.js"></script>
