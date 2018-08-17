@@ -5,7 +5,7 @@
         <title>Adtile Fixed Nav</title>
         <meta name="author" content="Adtile">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="dist/css/styles.css">
+        <link rel="stylesheet" href="dist/css/home.css">
         <!--<link rel="stylesheet" href="css/ie.css">-->
         <script src="dist/js/responsive-nav.js"></script>
         <!-- Style Sheets --> 
@@ -19,22 +19,41 @@
         </script>
     </head>
     <body>
+        <nav>
+            <div class="flex">
+                <a id="logo" href="#">FOFO MEDIA</a>
+                <label for="drop" class="toggle">Menu</label>
+            </div>
+            <input type="checkbox" id="drop" />
+            <ul class="menu main-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">Categories +</label>
+                    <a href="#">Categories</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="#">Teasers</a></li>
+                        <li><a href="#">Songs</a></li>
+                        <li><a href="#">Short films</a></li>
+                        <li><a href="#">Poetry</a></li>
+                        <li><a href="#">Gramiya Kalaigal</a></li>
+                        <li><a href="#">Dance</a></li>
+                        <li><a href="#">Album</a></li>
+                        <li><a href="#">Dance Special</a></li>
+                    </ul> 
+                </li>
+                <li><a href="#">Creative Advertising Ideas(CAI)</a></li>
+                <li><a href="#">Uploader</a></li>
+                <li><a class="cd-signin" href="#">Signin</a></li>
+            </ul>
+        </nav>
 
-        <header>
-            <a href="#home" class="logo" data-scroll>FOFO MEDIA</a>
-            <nav class=" main-nav nav-collapse">
-                <ul>
-                    <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
-                    <li class="menu-item"><a href="#">About</a></li>
-                    <li class="menu-item"><a href="#">Teasers</a></li>
-                    <li class="menu-item"><a href="#">Short Fims</a></li>
-                    <li class="menu-item"><a href="#">Kids Videos</a></li>
-                    <li class="menu-item"><a href="#">Songs</a></li>
-                    <li class="menu-item"><a href="#">Grammiam songs</a></li>
-                    <li class="menu-item"><a class="cd-signin" href="#">Sign in</a></li>
-                </ul>
-            </nav>
-        </header>
+
+        <!--<p> A simple dropdown navigation menu made with CSS Only. Dropdowns are marked with a plus sign ( + )</p>-->
+        <!--<p> Resize the screen to see the look if the screen is smaller then 768px </p>-->
+
 
         <div class="cd-user-modal">
             <div class="cd-user-modal-container">
