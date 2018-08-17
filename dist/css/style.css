@@ -708,6 +708,28 @@ li > a:only-child:after { content: ''; }
         text-align: center;
         float: none;
     }
+
+    .icon-wrapper {
+        position: relative;
+    }
+
+    .line {
+        width: 18px;
+        height: 2px;
+        background: #fff;
+        display: block;
+    }
+
+    .line:nth-child(2) {
+        margin-top: 4px;
+        margin-bottom: 4px;
+        -webkit-transition: all .2s cubic-bezier(.4,0,.2,1) 0s;
+        -moz-transition: all .2s cubic-bezier(.4,0,.2,1) 0s;
+        -o-transition: all .2s cubic-bezier(.4,0,.2,1) 0s;
+        transition: all .2s cubic-bezier(.4,0,.2,1) 0s;
+    }
+
+
     .flex {
         align-items: center;
         justify-items: flex-end;

@@ -22,7 +22,7 @@
         <nav>
             <div class="flex">
                 <a id="logo" href="#">FOFO MEDIA</a>
-                <label for="drop" class="toggle">Menu</label>
+                <label for="drop" class="toggle"><div class="icon-wrapper"><span class="line"></span><span class="line"></span><span class="line"></span></div></label>
             </div>
             <input type="checkbox" id="drop" />
             <ul class="menu main-nav">
